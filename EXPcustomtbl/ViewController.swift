@@ -8,7 +8,33 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
+    
+    var customdata = [
+        ["Name":"Urvi","Email":"ertyuioiu","Num":"34567"],
+        ["Name":"Poonam","Email":"iuytresd","Num":"098765"],
+        ["Name":"Nil","Email":"iuytreokjh","Num":"39567"]
+    
+    ]
+    
+    
+    
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return customdata.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)as! new
+        
+       cell.Name.text = customdata[indexPath.row]["Name"]
+       cell.Email.text = customdata[indexPath.row]["Email"]
+       cell.Num.text = customdata[indexPath.row]["Num"]
+        
+        return cell
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -15,6 +15,7 @@
 		C96B313023C866AD00A7D1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96B312E23C866AD00A7D1B8 /* LaunchScreen.storyboard */; };
 		C96B313B23C866AE00A7D1B8 /* EXPcustomtblTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96B313A23C866AE00A7D1B8 /* EXPcustomtblTests.swift */; };
 		C96B314623C866AE00A7D1B8 /* EXPcustomtblUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96B314523C866AE00A7D1B8 /* EXPcustomtblUITests.swift */; };
+		C96B315423C869A300A7D1B8 /* new.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96B315323C869A300A7D1B8 /* new.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C96B314123C866AE00A7D1B8 /* EXPcustomtblUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EXPcustomtblUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96B314523C866AE00A7D1B8 /* EXPcustomtblUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXPcustomtblUITests.swift; sourceTree = "<group>"; };
 		C96B314723C866AE00A7D1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96B315323C869A300A7D1B8 /* new.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C96B312E23C866AD00A7D1B8 /* LaunchScreen.storyboard */,
 				C96B313123C866AD00A7D1B8 /* Info.plist */,
 				C96B312923C866AD00A7D1B8 /* EXPcustomtbl.xcdatamodeld */,
+				C96B315323C869A300A7D1B8 /* new.swift */,
 			);
 			path = EXPcustomtbl;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				C96B312B23C866AD00A7D1B8 /* EXPcustomtbl.xcdatamodeld in Sources */,
 				C96B312523C866AD00A7D1B8 /* ViewController.swift in Sources */,
+				C96B315423C869A300A7D1B8 /* new.swift in Sources */,
 				C96B312323C866AD00A7D1B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
